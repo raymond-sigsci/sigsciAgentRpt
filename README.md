@@ -11,10 +11,10 @@ Reports on the SigSci Agents Across Sites in a Corp
 
 ### Instructions
 
-1. Download the lastest archive from https://github.com/raymond-sigsci/sigsciAgentRpt.
+1. Download the lastest archive for your OS from https://github.com/raymond-sigsci/sigsciAgentRpt.
 2. The archives are in the folders linuxBuild, windowsBuild and macosBuild. The archive contains the binary, image file and the example json config.
 3. Unzip, edit and rename the config file.
-4. Run the command `./sigsciAgentRpt`; `./sigsciAgentRpt.lx`; `sigsciAgentRpt.exe`
+4. Run the command `./sigsciAgentRpt` for MAC; `./sigsciAgentRpt.lx` for Linux; `sigsciAgentRpt.exe` for Windows
 
 The report hits the sites endpoint of the SigSci API and returns the sites for the supplied corp. The report then hits the agents endpoint for each site retireved. The report shows the the site, agent name, agent version and whether the agent is online or offline. The agent name field is a hyperlink to the Signal Sciences Dashboard Agent page. Clicking on the link may require further authentication.
 
